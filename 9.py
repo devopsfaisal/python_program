@@ -9,6 +9,4 @@ def fact(num):
         num=num-1
     return result
 
-# print(fact(4))
-
 print('Ther Factorial of {} is {}'.format(num, fact(num)))
