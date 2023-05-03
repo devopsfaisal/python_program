@@ -10,6 +10,6 @@ def isEven(num):
         return False
     
 list1 = [0,5,10,15,20,25,30]
-list2 = list(filter(isEven, l))
+list2 = list(filter(isEven, list1))
 print(type(list2))
 print(list2)
